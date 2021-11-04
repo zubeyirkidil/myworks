@@ -1,0 +1,161 @@
+@media screen and (max-width: 769px){
+
+
+.slogan{
+
+  top: 100px;
+}
+
+.slogan h1{
+
+  font-size: 45px;
+
+}
+
+.slogan button{
+
+  color: #fff;
+  cursor: pointer;
+  background-color: #7ad0b8;
+  border: none;
+  font-size: 22px;
+  margin-top: 15px;
+  padding: 10px 25px 10px 25px;
+  transition: 0.3s;
+}
+
+.rounded-frame{
+
+  margin-left: -25%;
+  width: 150%;
+}
+
+.rounded-frame .row{
+
+  padding: 50px 30% 50px 30%;
+  text-align: center;
+}
+
+.communication{
+
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+
+}
+
+@media screen and (max-width: 426px){
+
+.main-image img{
+
+  margin-top: 60px;
+}
+
+.slogan{
+
+  top: 110px;
+}
+
+.slogan h1{
+
+  font-size: 24px;
+
+}
+
+.slogan button{
+
+  color: #fff;
+  cursor: pointer;
+  background-color: #7ad0b8;
+  border: none;
+  font-size: 13px;
+  margin-top: 15px;
+  padding: 5px 10px 5px 10px;
+  transition: 0.3s;
+}
+
+.rounded-frame{
+
+  margin-left: -50%;
+  width: 200%;
+}
+
+.rounded-frame .row{
+
+  padding: 50px 30% 50px 30%;
+  text-align: center;
+}
+
+.communication{
+
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+}
+
+@media screen and (max-width: 376px){
+
+.main-image img{
+
+  margin-top: 60px;
+}
+
+.slogan{
+
+  top: 105px;
+}
+
+.slogan h1{
+
+  font-size: 21px;
+
+}
+
+.slogan button{
+
+  color: #fff;
+  cursor: pointer;
+  background-color: #7ad0b8;
+  border: none;
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 5px 10px 5px 10px;
+  transition: 0.3s;
+}
+
+}
+
+@media screen and (max-width: 321px){
+
+.main-image img{
+
+  margin-top: 60px;
+}
+
+.slogan{
+
+  top: 100px;
+}
+
+.slogan h1{
+
+  font-size: 18px;
+
+}
+
+.slogan button{
+
+  color: #fff;
+  cursor: pointer;
+  background-color: #7ad0b8;
+  border: none;
+  font-size: 11px;
+  margin-top: 10px;
+  padding: 5px 10px 5px 10px;
+  transition: 0.3s;
+}
+
+}
