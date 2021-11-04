@@ -1,0 +1,502 @@
+@media only screen and (max-width: 1025px) {
+  
+  /* Kapak */
+
+.wallpaper img{
+
+	margin-top: 0px;
+	height: 500px;
+	width: 100%;
+}
+
+.profile{
+
+	width: 150px;
+}
+
+.slogan{
+
+	top: 100px;
+}
+
+.slogan img{
+
+	width: 150px;
+	height: 150px;
+}
+
+.slogan h1{
+
+	font-size: 60px;
+}
+
+.slogan .box{
+
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.slogan .box div{
+
+	font-size: 8px;
+}
+
+.slogan p{
+
+	font-size: 28px;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.slogan p span:after{
+
+	width: 1px;
+	height: 11%;
+}
+
+/* CROSS */
+
+.cross{
+
+	border-right: 150px solid #242424;
+	border-left: 150px solid #242424;
+}
+
+.anti-cross{
+	border-right: 150px solid #242424;
+	border-left: 150px solid #242424;
+
+}
+
+/* HAKKIMDA */
+
+.about p{
+
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+/* YETENEKLER */
+
+.skills-item{
+
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+
+}
+
+.skills-item-light{
+
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+/* TASARIMLAR */
+
+.designs{
+
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.designs img{
+
+	width: 100%;
+}
+
+.designs-item {
+
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 10px;
+}
+
+/* İLETİŞİM */
+
+.communication form{
+
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+}
+
+}
+
+@media only screen and (max-width: 769px) {
+  
+  /* Kapak */
+
+.profile{
+
+	width: 150px;
+}
+
+.slogan{
+
+	top: 70px;
+}
+
+.slogan img{
+
+	width: 150px;
+	height: 150px;
+}
+
+.slogan h1{
+
+	font-size: 55px;
+}
+
+.slogan .box{
+
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+
+
+}
+
+@media only screen and (max-width: 645px) {
+
+nav{
+
+	position: fixed;
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+	z-index: 1;
+}
+  
+  /* Kapak */
+
+.slogan h1{
+
+	font-size: 45px;
+}
+
+.slogan .box{
+
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.slogan p{
+
+	font-size: 16px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.slogan p span:after{
+
+	width: 1px;
+	height: 7%;
+	border-right: 2px solid #efefef;
+}
+
+/* CROSS */
+
+.cross{
+
+	border-right: 100px solid #242424;
+	border-left: 100px solid #242424;
+}
+
+.anti-cross{
+	border-right: 100px solid #242424;
+	border-left: 100px solid #242424;
+
+}
+
+/* HAKKIMDA */
+
+.about p{
+
+	font-size: 13px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+/* YETENEKLER */
+
+.skills-item{
+
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 12px;
+}
+
+.skills .skills-item .overlay{
+
+	font-size: 10px;
+}
+
+.skills-item-light{
+
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 12px;
+}
+
+.skills .skills-item-light .overlay{
+
+	font-size: 10px;
+}
+
+}
+
+
+@media only screen and (max-width: 426px) {
+
+.logo {
+
+	width: 46px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+.logo img{
+
+	cursor: pointer;
+	width: 100%;
+}
+  
+  /* Kapak */
+
+.profile{
+
+	width: 120px;
+}
+
+ .slogan{
+
+	top: 120px;
+}
+
+ .slogan img{
+
+	width: 120px;
+	height: 120px;
+}
+
+.slogan h1{
+
+	font-size: 28px;
+}
+
+.slogan .box{
+
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.slogan p{
+
+	font-size: 16px;
+}
+
+.slogan p span:after{
+
+	width: 1px;
+	height: 8%;
+}
+
+/* CROSS */
+
+.cross{
+
+	border-right: 50px solid #242424;
+	border-left: 50px solid #242424;
+	border-bottom: 50px solid #bbb;
+}
+
+.anti-cross{
+	border-right: 50px solid #242424;
+	border-left: 50px solid #242424;
+	border-top: 50px solid #bbb;
+
+}
+
+/* HAKKIMDA */
+
+.about p{
+
+	font-size: 12px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+/* YETENEKLER */
+
+.skills h2{
+
+	font-size: 14px;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.skills-item{
+
+	font-size: 11px;
+}
+
+.skills .skills-item:hover .overlay{
+
+	padding-right: 10px;
+}
+
+.skills-item-light{
+
+	font-size: 11px;
+}
+
+.skills .skills-item-light:hover .overlay{
+
+	padding-right: 10px;
+}
+
+/* TASARIMLAR */
+
+.designs{
+
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.designs img{
+
+	width: 100%;
+}
+
+.designs-item {
+	
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* İLETİŞİM */
+
+.communication form{
+
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+}
+
+.communication input{
+
+	line-height: 25px;
+	padding-left: 8px;
+	font-size: 11px;
+}
+
+.communication textarea{
+
+	padding-left: 8px;
+	font-size: 11px;
+}
+
+.communication button{
+
+	font-size: 11px;
+}
+
+}
+
+@media only screen and (max-width: 380px) {
+  
+  /* Kapak */
+
+.profile{
+
+	width: 120px;
+}
+
+ .slogan{
+
+	top: 120px;
+}
+
+ .slogan img{
+
+	width: 120px;
+	height: 120px;
+}
+
+.slogan h1{
+
+	font-size: 28px;
+}
+
+.slogan .box{
+
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.slogan p{
+
+	font-size: 16px;
+}
+
+/* CROSS */
+
+.cross{
+
+	border-right: 50px solid #242424;
+	border-left: 50px solid #242424;
+	border-bottom: 50px solid #bbb;
+}
+
+.anti-cross{
+	border-right: 50px solid #242424;
+	border-left: 50px solid #242424;
+	border-top: 50px solid #bbb;
+
+}
+
+/* HAKKIMDA */
+
+.about p{
+
+	font-size: 12px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+/* YETENEKLER */
+
+.skills h2{
+
+	font-size: 18px;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+
+}
+
+.skills-item{
+
+	font-size: 10px;
+}
+
+.skills-item-light{
+
+	font-size: 10px;
+}
+
+}

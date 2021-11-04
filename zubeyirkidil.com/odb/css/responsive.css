@@ -1,0 +1,74 @@
+@media only screen and (max-width: 800px){
+
+			img{
+
+				width: 100%;
+			}
+ 			h1{
+ 			
+ 				font-size: 21px;
+ 				text-align: center;
+ 			}
+ 			p{
+ 				font-size: 15px;
+ 				text-align: center;
+ 			}
+
+ 			tr{
+
+ 				font-size: 10px;
+ 				padding-top: 3px;
+ 				padding-bottom: 3px;
+ 			}
+
+ 			input{
+ 				margin-left: 10%;
+ 				margin-right: 10%;
+ 				width: 80%;
+ 				line-height: 21px;
+ 				padding-bottom: 5px;
+	 			padding-right: 0px;
+	 			padding-left: 0px;
+ 			}
+
+ 			button{
+
+ 				margin-left: 10%;
+ 				margin-right: 10%;
+ 				padding-left: 0px;
+ 				padding-right: 0px;
+ 				width: 80%;
+ 				
+ 			}
+
+ 			th{
+
+ 				padding: 0px;
+ 			}
+ 			td{
+ 				padding: 3px 0px 3px 0px;
+ 			}
+
+ 			.texts img{
+
+ 			margin-left: 5%;
+ 			margin-right: 5%;
+ 			width: 90%;
+ 		}
+
+ 			.form{
+
+ 			
+ 			margin-left: 5%;
+ 			margin-right: 5%;
+ 			width: 90%;
+ 		}
+
+ 		.ortak{
+
+ 			margin-left: 5%;
+ 			width: 90%;
+
+ 		}
+
+ }

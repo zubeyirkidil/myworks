@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+
+@font-face {
+    font-family: 'copperplate';
+    src: url('../font/copperplate.woff2') format('woff2'),
+        url('../font/copperplate.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+	font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p::-moz-selection, h1::-moz-selection, h2::-moz-selection, span::-moz-selection, a:::-moz-selection, div::-moz-selection, input::-moz-selection, textarea::-moz-selection, button::-moz-selection, img::-moz-selection {
+background: #bbb;
+color: #FFFFFF;}
+p::selection, h1::selection, h2::selection, span::selection, a::selection, div::selection, input::selection, textarea::selection, button::selection, img::selection{
+background: #fff;
+color: #FFFFFF;}
+
+/* Menü */
+
+nav{
+
+	position: fixed;
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+	z-index: 1;
+}
+
+.logo {
+
+	width: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+.logo img{
+
+	cursor: pointer;
+	width: 100%;
+}
+.logo img:hover{
+
+	opacity: 0.7;
+}
+
+.menu-button{
+
+	cursor: pointer;
+	margin-top: 20px;
+	float: right;
+}
+
+.menu-button div{
+
+	background-color: #fff;
+	height: 2px;
+	width: 40px;
+	margin-bottom: 6px;
+	transition: 0.5s;
+	opacity: 1;
+}
+
+.menu-button:hover{
+
+	opacity: 0.7;	
+}
+
+
+/* Kapak */
+
+.wallpaper .image{
+
+	background-image: url("../img/arkaplan/arkaplan.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 130vh;
+}
+
+.slogan{
+
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 150px;
+
+}
+
+.profile{
+
+	cursor: pointer;
+	overflow: hidden;
+	border-radius: 50%;
+	width: 210px;
+	text-align: center;
+	display: inline-block;
+}
+
+.slogan img{
+
+	transition: 0.3s;
+	width: 210px;
+}
+
+.slogan img:hover{
+
+	transform: scale(1.2);
+}
+
+.slogan h1{
+
+	color: #fff;
+	letter-spacing: 6px;
+	font-size: 66px;
+	font-weight: 100;
+	font-family: 'copperplate', serif;
+	margin-top: 5px;
+}
+
+.slogan .box{
+
+	float: left;
+	width: 26%;
+	margin-left: 37%;
+	margin-right: 37%;
+	margin-top: 40px;
+	z-index: 2;
+}
+.slogan .box a{
+
+	display: block;
+}
+
+.slogan .box div{
+
+	color: #efefef;
+	font-size: 9px;
+	position: relative;
+	letter-spacing: 1px;
+	height: 0px;
+	width: 33.33%;
+	padding-top: 13px;
+	float: left;
+	overflow: hidden;
+	transition: 0.5s;
+	margin-bottom: 25px;
+}
+
+.slogan .box .box-item1{
+
+	background-color: rgba(0,0,255,0.2);
+}
+
+.slogan .box .box-item2{
+
+	background-color: rgba(255,0,0,0.2);
+}
+
+.slogan .box .box-item3{
+
+	background-color: rgba(0,255,0,0.2);
+}
+
+.slogan p{
+
+	color: #fff;
+	font-size: 48px;
+	letter-spacing: 6px;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+
+.slogan p span:after{
+
+	content: "";
+	position: absolute;
+	width: 1px;
+	height: 14%;
+	border-right: 3px solid #efefef;
+	animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink{
+
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+
+/* HAKKIMDA */
+
+.about{
+
+	margin-top: -4px;
+	background-color: #242424;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.about h2{
+
+	color: #fff;
+	letter-spacing: 3px;
+	font-size: 24px;
+}
+
+.about p{
+
+	
+	color: #fff;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 1px;
+	margin-top: 25px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.about p a{
+	
+	color: #fff;
+	font-size: 13px;
+
+}
+
+.cross{
+
+	background-color: #242424;
+	border-right: 250px solid #242424;
+	border-left: 250px solid #242424;
+    border-top:0px solid #242424;
+    border-bottom: 100px solid #bbb;
+}
+
+.anti-cross{
+
+	background-color: #242424;
+	border-right: 250px solid #242424;
+	border-left: 250px solid #242424;
+    border-top:100px solid #bbb;
+    border-bottom: 0px solid #242424;
+}
+
+/* YETENEKLER */
+
+.skills{
+
+	background-color: #bbb;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.skills h2{
+
+	border-top: 5px solid #242424;
+	border-bottom: 5px solid #242424;
+	color: #242424;
+	letter-spacing: 3px;
+	font-size: 18px;
+	width: 40%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 25px;
+}
+
+.skills-item{
+
+	cursor: pointer;
+	background-color: #242424;
+	color: #efefef;
+	width: 50%;
+	font-size: 14px;
+	margin-right: 25%;
+	margin-left: 25%;
+	text-align: left;
+	padding: 10px 25px 10px 25px;
+	padding-left: 15px;
+	margin-bottom: 5px;
+	position: relative;
+	transition: 1s;
+}
+
+.skills-item:hover{
+
+	opacity: 0.8;
+}
+
+.skills .skills-item .overlay{
+
+	position: absolute;
+	background-color: rgba(0,0,0,0.4);
+	right: 0px;
+	top: 0px;
+	width: 0%;
+	height: 100%;
+	text-align: right;
+	font-size: 12px;
+	padding-top: 12px;
+	transition: 1s;
+}
+
+.skills .skills-item .overlay span{
+
+	visibility: hidden;
+}
+
+.skills .skills-item:hover .overlay{
+
+	padding-right: 20px;
+}
+
+
+.skills .skills-item:hover .overlay span{
+
+	visibility: visible;
+}
+
+
+.skills-item-light{
+
+	cursor: pointer;
+	background-color: #343434;
+	color: #efefef;
+	width: 50%;
+	font-size: 14px;
+	margin-right: 25%;
+	margin-left: 25%;
+	text-align: left;
+	padding: 10px 25px 10px 25px;
+	padding-left: 15px;
+	margin-bottom: 5px;
+	position: relative;
+	transition: 1s;
+}
+
+.skills-item-light:hover{
+
+	opacity: 0.8;
+}
+
+.skills .skills-item-light .overlay{
+
+	position: absolute;
+	background-color: rgba(0,0,0,0.4);
+	right: 0px;
+	top: 0px;
+	width: 0%;
+	height: 100%;
+	text-align: right;
+	padding-top: 12px;
+	font-size: 12px;
+	transition: 1s;
+}
+
+.skills .skills-item-light .overlay span{
+
+	visibility: hidden;
+}
+
+.skills .skills-item-light:hover .overlay{
+
+	padding-right: 20px;
+}
+
+.skills .skills-item-light:hover .overlay span{
+
+	visibility: visible;
+}
+
+.skills #html5:hover .overlay{
+
+	width: 10%;
+}
+
+.skills #css3:hover .overlay{
+
+	width: 10%;
+}
+
+.skills #js:hover .overlay{
+
+	width: 20%;
+}
+
+.skills #jQuery:hover .overlay{
+
+	width: 90%;
+}
+
+.skills #php:hover .overlay{
+
+	width: 40%;
+}
+
+.skills #MySQL:hover .overlay{
+
+	width: 60%;
+}
+
+.skills #SEO:hover .overlay{
+
+	width: 10%;
+}
+
+.skills #photoshop:hover .overlay{
+
+	width: 40%;
+}
+
+.skills #illustrator:hover .overlay{
+
+	width: 70%;
+}
+
+.skills #ingilizce:hover .overlay{
+
+	width: 20%;
+}
+
+.skills #ispanyolca:hover .overlay{
+
+	width: 80%;
+}
+
+
+/* TASARIMLAR */
+
+.designs{
+
+	background-color: #242424;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.designs h2{
+
+	color: #fff;
+	letter-spacing: 3px;
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+.designs img{
+
+	width: 100%;
+}
+
+.designs-item {
+  cursor: pointer;
+  position: relative;
+  width: 32%;
+  float: left;
+  margin-right: 1%;
+  margin-bottom: 20px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.designs-item:hover .image {
+  opacity: 0.3;
+}
+
+.designs-item:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: darkred;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 20px;
+}
+
+.communication{
+
+	clear: both;
+	background-color: #bbb;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.communication h2{
+
+	color: #242424;
+	letter-spacing: 3px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.communication form{
+
+	margin-top: 50px;
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+}
+
+.communication input{
+
+	background-color: #242424;
+	line-height: 30px;
+	border: none;
+	width: 100%;
+	margin-bottom: 5px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.communication textarea{
+
+	background-color: #242424;
+	border: none;
+	width: 100%;
+	height: 150px;
+	margin-bottom: 5px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.communication button{
+
+	background-color: #242424;
+	cursor: pointer;
+	line-height: 30px;
+	border: none;
+	width: 100%;
+	margin-bottom: 5px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #fff;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
+.footer{
+
+	background-color: #242424;
+	height: 250px;
+	width: 100%;
+}
+
+.social{
+
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 50px;
+}
+
+.social .social-item{
+
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.social .social-item h2{
+
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+}
+
+.social .social-item i{
+
+	margin-top: 20px;
+	margin-right: 5px;
+	transition: 0.5s;
+}
+
+.social .social-item i:hover{
+
+	color: #bbb;
+}
+
+.social .social-item a{
+
+	font-size: 24px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer-bottom{
+
+	background-color: #242424;
+	color: #efefef;
+	font-size: 10px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	padding: 5px;
+}
+
+.popup{
+
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	padding-top: 8px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 999;
+	transition: 3s;
+	display: none;
+}
+
+#feedback{
+
+	font-size: 14px;
+	color: #fff; 
+	text-align: center;
+	letter-spacing: 0px; 
+}
+
+.animation-box{
+
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 998;
+}
+
+.creator{
+
+	color: #bbb;
+	cursor: pointer;
+}
