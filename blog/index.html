@@ -1,0 +1,446 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>zubeyirkidil</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+
+	
+</head>
+
+<body>
+	
+	<script>
+// When the user scrolls down 126px from the top of the document, slide down the menu
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 126 || document.documentElement.scrollTop > 126) {
+    	
+	  document.getElementById("hamburger-menu").style.position = "fixed";
+	  document.getElementById("hamburger-menu").style.top = "-100px";
+	  document.getElementById("hamburger-menu").style.opacity = "0.9";
+	  document.getElementById("hamburger-menu").style.zIndex = "1";
+	  
+	  document.getElementById("hamburger-menu-logo").style.display = "block";
+	  
+	  document.getElementById("menu").style.opacity = "0.9";
+	  document.getElementById("menu").style.position = "fixed";
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+  } else {
+	  
+      document.getElementById("hamburger-menu").style.position = "static";
+	   document.getElementById("hamburger-menu").style.opacity = "1";
+	  
+	  document.getElementById("hamburger-menu-logo").style.display = "none";
+	  
+	  document.getElementById("menu").style.opacity = "1";
+	  document.getElementById("menu").style.position = "static";
+	  
+  }
+}
+</script>
+	
+	
+	
+	<!-- Header  Başlangıç-->
+	
+	<header>
+	<div class="socialmedia col-12">
+		<div style="text-align: left; float: left; margin-left: 25px;">
+			
+			
+			
+			<a href="" style="font-size: 11px;"><img src="images/tr.png" alt="Türk Bayrağı" height="13px;"></a>
+			<a href="" style="font-size: 11px; margin-left: -10px;"><img src="images/en.png" alt="İngiliz Bayrağı" height="13px;"></a>
+		
+		
+		
+		
+		</div>
+		<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+		<a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		
+	</div>
+	
+	<br>
+	
+	
+	<div class="logo col-12">
+	
+	<img src="images/logo.png" alt="" height="100px"/>
+	
+	</div>
+	
+	<div class="hamburger-menu" id="hamburger-menu"> 
+		
+		<i class="fas fa-bars"  onClick="myFunction()" style="float: right; margin-right: 20px; margin-top: 5px;cursor: pointer;"></i>
+		
+	
+		<a href=""><img src="images/logo.png" id="hamburger-menu-logo" height="40px" alt="" style="float: left; display: none; padding-left:45%; padding-right:20%;"></a>
+		
+		
+	
+	</div>
+	
+	
+	
+	<script>
+		
+	    function myFunction() {
+		
+		var x = document.getElementById('menu');
+			
+		if (x.style.display === 'none') {
+			
+		x.style.display = 'block';
+		
+		} else {
+				
+		x.style.display = 'none';
+			
+		}
+			
+        	}
+		
+		</script>
+		
+		
+	
+	<div class="menu" id="menu">
+	
+		<ul>
+		
+			<li><a href=""><i class="fas fa-home"></i> Ana Sayfa</a></li>
+			<li><a href=""><i class="far fa-file-alt"></i> Hakkımda</a></li>
+			<li><a href=""><i class="fas fa-pencil-alt"></i> Yazılarım</a></li>
+			<li><a href=""><i class="fas fa-dumbbell"></i> Spor</a></li>
+			<li><a href=""><i class="fas fa-envelope"></i> İletişim</a></li>
+			
+			
+		</ul>
+	
+	</div>
+	</header>
+	
+	<!-- Header Bitiş -->
+		
+	
+	<!-- İçerik Başlangıç-->
+	
+	
+	 
+	<div class="body" id="body">
+		
+	<div class="slider">
+		
+	<h1>LATEST NEWS</h1>
+	
+	<img src="images/slider.png" alt="" width="100%">
+	
+	
+	</div>
+		
+		
+		<div class="content" id="content">
+			
+			<h1 style="padding: 20px; margin-bottom: -30px; margin-top: 0px">CONTENT</h1>
+			
+			<div style="padding: 20px; color: gray; font-size: 17px;"> 
+			
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum risus mauris, at eleifend felis ullamcorper quis. Pellentesque congue venenatis tempor. Curabitur quis finibus neque. Nunc tellus ante, lobortis quis mollis sit amet, tempor non arcu. Sed condimentum risus leo, id efficitur lacus imperdiet ac. Suspendisse maximus nulla urna, id pulvinar dui ultrices euismod. In hac habitasse platea dictumst. Duis tristique tellus id mollis ultrices. Duis sagittis elit a ex blandit, sit amet placerat risus pharetra.</p>
+
+				<p>Morbi maximus, dolor a pretium rhoncus, enim tellus ornare quam, quis ullamcorper tellus metus fringilla dolor. Nullam sodales quam quis ex consectetur venenatis ac vitae sem. Duis viverra tortor at odio rutrum, quis auctor nunc facilisis. Ut malesuada lacinia dolor a convallis. Pellentesque mollis neque augue, sit amet sodales velit aliquam at. Cras iaculis vehicula tortor eget volutpat. Curabitur dignissim dolor id ipsum fringilla, in tempus quam porta. Sed viverra et sapien vel faucibus.</p>
+			
+
+				<p>Aenean cursus arcu orci, accumsan laoreet nisl rhoncus in. Nunc ullamcorper risus felis, eu fringilla tortor malesuada at. Integer vel tellus a risus lacinia placerat non at elit. Mauris pretium, enim eu mattis tincidunt, leo sem elementum leo, id pretium ipsum tellus ut nulla. Sed luctus accumsan nisi eget ornare. Duis eu accumsan lectus. Etiam dignissim sem quam, nec sollicitudin dui posuere ut. Proin id metus in sem tristique faucibus et eu sem. Nam non ex ac nisi consequat ultrices. Vivamus vitae nisi elementum, tincidunt mauris eu, vestibulum lorem. Curabitur quis mollis sem, ullamcorper commodo dolor. Nunc blandit neque vitae metus mattis, ut aliquam dolor congue. Fusce sed dui erat. Donec in felis est. Phasellus nulla tellus, tincidunt ut ante ac, malesuada consectetur orci. In vestibulum dui feugiat lacus bibendum sollicitudin.</p>
+				
+				<img src="images/photo.png" style="width: 100%;">
+				
+
+				<p>Sed lectus leo, semper a velit a, pretium aliquet enim. Aliquam quam mi, mollis eu venenatis eu, tincidunt non dui. In hac habitasse platea dictumst. Pellentesque sit amet sagittis ex. Nulla venenatis sed ipsum tempor ultrices. Nulla turpis enim, convallis vel lobortis ut, egestas nec nulla. In leo nisl, pellentesque in ultrices ac, ornare ac urna. Nulla ullamcorper turpis a arcu tincidunt volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam pretium quam non metus molestie, in dapibus magna tempus.</p>
+				
+				
+				
+				<p>Quisque sollicitudin at nisi vel porttitor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eget finibus velit. Duis vitae tellus ut felis tincidunt fermentum. Praesent blandit tincidunt suscipit. Fusce vitae nisi malesuada, euismod dolor ac, vestibulum lacus. In a est rutrum, dapibus nisi vitae, viverra arcu. Proin in suscipit augue, at pulvinar dolor. Sed sollicitudin porta euismod. Phasellus consequat purus vel aliquet accumsan. Donec rhoncus lacus quis tincidunt sollicitudin. Aenean odio tellus, vehicula sit amet justo in, gravida euismod sapien. Phasellus lobortis, tellus vel dictum ultricies, urna ligula convallis est, sit amet dapibus augue elit ut lectus. Proin eget convallis sem, vel sagittis massa.</p>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum risus mauris, at eleifend felis ullamcorper quis. Pellentesque congue venenatis tempor. Curabitur quis finibus neque. Nunc tellus ante, lobortis quis mollis sit amet, tempor non arcu. Sed condimentum risus leo, id efficitur lacus imperdiet ac. Suspendisse maximus nulla urna, id pulvinar dui ultrices euismod. In hac habitasse platea dictumst. Duis tristique tellus id mollis ultrices. Duis sagittis elit a ex blandit, sit amet placerat risus pharetra.</p>
+
+				<p>Morbi maximus, dolor a pretium rhoncus, enim tellus ornare quam, quis ullamcorper tellus metus fringilla dolor. Nullam sodales quam quis ex consectetur venenatis ac vitae sem. Duis viverra tortor at odio rutrum, quis auctor nunc facilisis. Ut malesuada lacinia dolor a convallis. Pellentesque mollis neque augue, sit amet sodales velit aliquam at. Cras iaculis vehicula tortor eget volutpat. Curabitur dignissim dolor id ipsum fringilla, in tempus quam porta. Sed viverra et sapien vel faucibus.</p>
+				
+
+				<p>Aenean cursus arcu orci, accumsan laoreet nisl rhoncus in. Nunc ullamcorper risus felis, eu fringilla tortor malesuada at. Integer vel tellus a risus lacinia placerat non at elit. Mauris pretium, enim eu mattis tincidunt, leo sem elementum leo, id pretium ipsum tellus ut nulla. Sed luctus accumsan nisi eget ornare. Duis eu accumsan lectus. Etiam dignissim sem quam, nec sollicitudin dui posuere ut. Proin id metus in sem tristique faucibus et eu sem. Nam non ex ac nisi consequat ultrices. Vivamus vitae nisi elementum, tincidunt mauris eu, vestibulum lorem. Curabitur quis mollis sem, ullamcorper commodo dolor. Nunc blandit neque vitae metus mattis, ut aliquam dolor congue. Fusce sed dui erat. Donec in felis est. Phasellus nulla tellus, tincidunt ut ante ac, malesuada consectetur orci. In vestibulum dui feugiat lacus bibendum sollicitudin.</p>
+				
+
+				<p>Sed lectus leo, semper a velit a, pretium aliquet enim. Aliquam quam mi, mollis eu venenatis eu, tincidunt non dui. In hac habitasse platea dictumst. Pellentesque sit amet sagittis ex. Nulla venenatis sed ipsum tempor ultrices. Nulla turpis enim, convallis vel lobortis ut, egestas nec nulla. In leo nisl, pellentesque in ultrices ac, ornare ac urna. Nulla ullamcorper turpis a arcu tincidunt volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam pretium quam non metus molestie, in dapibus magna tempus.</p>
+				
+				
+				<img src="images/photo_2.png" style="width: 100%;">
+				
+				<p>Aenean cursus arcu orci, accumsan laoreet nisl rhoncus in. Nunc ullamcorper risus felis, eu fringilla tortor malesuada at. Integer vel tellus a risus lacinia placerat non at elit. Mauris pretium, enim eu mattis tincidunt, leo sem elementum leo, id pretium ipsum tellus ut nulla. Sed luctus accumsan nisi eget ornare. Duis eu accumsan lectus. Etiam dignissim sem quam, nec sollicitudin dui posuere ut. Proin id metus in sem tristique faucibus et eu sem. Nam non ex ac nisi consequat ultrices. Vivamus vitae nisi elementum, tincidunt mauris eu, vestibulum lorem. Curabitur quis mollis sem, ullamcorper commodo dolor. Nunc blandit neque vitae metus mattis, ut aliquam dolor congue. Fusce sed dui erat. Donec in felis est. Phasellus nulla tellus, tincidunt ut ante ac, malesuada consectetur orci. In vestibulum dui feugiat lacus bibendum sollicitudin.</p>
+
+				<p>Sed lectus leo, semper a velit a, pretium aliquet enim. Aliquam quam mi, mollis eu venenatis eu, tincidunt non dui. In hac habitasse platea dictumst. Pellentesque sit amet sagittis ex. Nulla venenatis sed ipsum tempor ultrices. Nulla turpis enim, convallis vel lobortis ut, egestas nec nulla. In leo nisl, pellentesque in ultrices ac, ornare ac urna. Nulla ullamcorper turpis a arcu tincidunt volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam pretium quam non metus molestie, in dapibus magna tempus.</p>
+				
+				<p>Quisque sollicitudin at nisi vel porttitor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eget finibus velit. Duis vitae tellus ut felis tincidunt fermentum. Praesent blandit tincidunt suscipit. Fusce vitae nisi malesuada, euismod dolor ac, vestibulum lacus. In a est rutrum, dapibus nisi vitae, viverra arcu. Proin in suscipit augue, at pulvinar dolor. Sed sollicitudin porta euismod. Phasellus consequat purus vel aliquet accumsan. Donec rhoncus lacus quis tincidunt sollicitudin. Aenean odio tellus, vehicula sit amet justo in, gravida euismod sapien. Phasellus lobortis, tellus vel dictum ultricies, urna ligula convallis est, sit amet dapibus augue elit ut lectus. Proin eget convallis sem, vel sagittis massa.</p>
+			
+			</div>
+			
+		</div>
+		
+		
+		<div class="sidebar">
+			
+			<div class="register">
+			
+				<hr>
+				<br>
+				<text style="font-size: 15px; font-weight: bold;">ABONE OLUN</text>
+				<br><br>
+			    E-mail adresiniz
+				<br>
+				<input type="text" placeholder="ornek@gmail.com">
+				<br><br>
+				İsminiz 
+				<br>
+				<input type="text" placeholder="">
+				<br><br>
+				<button value="Abone ol">Abone Ol</button>
+				<br><br>
+				
+			
+			</div>
+			
+			<hr>
+			
+			<text style="font-size: 15px; font-weight: bold;">TAKİP EDİN</text>
+			
+			<div class="sidebar-socialmedia col-12">
+			
+			
+		<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+		<a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+		
+		
+		</div>
+			
+			<hr>
+			
+			<text style="font-size: 15px; font-weight: bold;">BENZER YAZILAR</text>
+			
+			<div class="sidebar-articles" style="" >
+				
+				<fieldset>
+					
+					<legend><a href="" style="font-size: 9px;"><i class="far fa-clock"></i> 1 Ocak Şubat 2019</a></legend>
+					
+					<a href=""><img src="images/logo.png" alt="" width="100%">
+					
+					Lorem ipsum dolor sit amet</a>
+					
+				</fieldset>
+			
+			</div>
+			
+			<div class="sidebar-articles" style="" >
+				
+				<fieldset>
+					
+					<legend><a href="" style="font-size: 9px;"><i class="far fa-clock"></i> 22 Şubat 2019</a></legend>
+					
+					<a href=""><img src="images/logo.png" alt="" width="100%">
+					
+					Lorem ipsum dolor sit amet</a>
+					
+				</fieldset>
+			
+			</div>
+			
+			<div class="sidebar-articles" style="" >
+				
+				<fieldset>
+					
+					<legend><a href="" style="font-size: 9px;"><i class="far fa-clock"></i> 2 Mart 2019</a></legend>
+					
+					<a href=""><img src="images/logo.png" alt="" width="100%">
+					
+					Lorem ipsum dolor sit amet</a>
+					
+				</fieldset>
+			
+			</div>
+			
+			
+			<br>
+			
+			
+			<div class="advertisement">REKLAM</div>
+			
+			
+			<br>
+			
+			
+			<div class="sidebar-articles" style="" >
+				
+				<fieldset>
+					
+					<legend><a href="" style="font-size: 9px;"><i class="far fa-clock"></i> 8 Ağustos 2018</a></legend>
+					
+					<a href=""><img src="images/logo.png" alt="" width="100%">
+					
+					Lorem ipsum dolor sit amet</a>
+					
+				</fieldset>
+			
+			</div>
+			
+			<div class="sidebar-articles" style="" >
+				
+				<fieldset>
+					
+					<legend><a href="" style="font-size: 9px;"><i class="far fa-clock"></i> 19 Eylül 2018</a></legend>
+					
+					<a href=""><img src="images/logo.png" alt="" width="100%">
+					
+					Lorem ipsum dolor sit amet</a>
+					
+				</fieldset>
+			
+			</div>
+			
+			
+			<hr>
+			
+				
+				<text style="font-size: 15px; font-weight: bold;">ETİKETLER</text>
+				
+			<br>
+			
+			
+				<div class="labels"><a href="">Araba</a></div>
+				<div class="labels"><a href="">Ağaç</a></div>
+				<div class="labels"><a href="">At</a></div>
+				<div class="labels"><a href="">Kaplumbağa</a></div>
+				<div class="labels"><a href="">Maymun</a></div>
+				<div class="labels"><a href="">Kamp Bıçağı</a></div>
+				<div class="labels"><a href="">Çadır</a></div>
+				<div class="labels"><a href="">Ateş</a></div>
+				<div class="labels"><a href="">Doğa</a></div>
+				<div class="labels"><a href="">Geyik</a></div>
+				<div class="labels"><a href="">Tavşan</a></div>
+				<div class="labels"><a href="">Orman</a></div>
+				<div class="labels"><a href="">Araba</a></div>
+				<div class="labels"><a href="">Ağaç</a></div>
+				<div class="labels"><a href="">At</a></div>
+				<div class="labels"><a href="">Kaplumbağa</a></div>
+				<div class="labels"><a href="">Maymun</a></div>
+				<div class="labels"><a href="">Kamp Bıçağı</a></div>
+				<div class="labels"><a href="">Çadır</a></div>
+				<div class="labels"><a href="">Ateş</a></div>
+				<div class="labels"><a href="">Doğa</a></div>
+				<div class="labels"><a href="">Geyik</a></div>
+				<div class="labels"><a href="">Tavşan</a></div>
+				<div class="labels"><a href="">Orman</a></div>
+				<div class="labels"><a href="">Araba</a></div>
+				<div class="labels"><a href="">Ağaç</a></div>
+				<div class="labels"><a href="">At</a></div>
+				<div class="labels"><a href="">Kaplumbağa</a></div>
+				<div class="labels"><a href="">Maymun</a></div>
+				<div class="labels"><a href="">Kamp Bıçağı</a></div>
+				<div class="labels"><a href="">Çadır</a></div>
+				<div class="labels"><a href="">Ateş</a></div>
+				<div class="labels"><a href="">Doğa</a></div>
+				<div class="labels"><a href="">Kamp Bıçağı</a></div>
+				<div class="labels"><a href="">Çadır</a></div>
+				<div class="labels"><a href="">Ateş</a></div>
+				<div class="labels"><a href="">Doğa</a></div>
+				<div class="labels"><a href="">Geyik</a></div>
+				<div class="labels"><a href="">Tavşan</a></div>
+				<div class="labels"><a href="">Orman</a></div>
+				<div class="labels"><a href="">Araba</a></div>
+				<div class="labels"><a href="">Ağaç</a></div>
+				<div class="labels"><a href="">At</a></div>
+				<div class="labels"><a href="">Kaplumbağa</a></div>
+				<div class="labels"><a href="">Maymun</a></div>
+				<div class="labels"><a href="">Kamp Bıçağı</a></div>
+				<div class="labels"><a href="">Çadır</a></div>
+				<div class="labels"><a href="">Ateş</a></div>
+				<div class="labels"><a href="">Doğa</a></div>
+				<div class="labels"><a href="">Geyik</a></div>
+				<div class="labels"><a href="">Tavşan</a></div>
+				<div class="labels"><a href="">Orman</a></div>
+				<div class="labels"><a href="">Geyik</a></div>
+				<div class="labels"><a href="">Tavşan</a></div>
+				<div class="labels"><a href="">Orman</a></div>
+				<div class="labels"><a href="">Kamp Bıçağı</a></div>
+				<div class="labels"><a href="">Çadır</a></div>
+				<div class="labels"><a href="">Ateş</a></div>
+				<div class="labels"><a href="">Doğa</a></div>
+				<div class="labels"><a href="">Geyik</a></div>
+				<div class="labels"><a href="">Tavşan</a></div>
+				<div class="labels"><a href="">Orman</a></div>
+				<div class="labels"><a href="">Araba</a></div>
+				<div class="labels"><a href="">Ağaç</a></div>
+				<div class="labels"><a href="">At</a></div>
+				<div class="labels"><a href="">Kaplumbağa</a></div>
+				<div class="labels"><a href="">Maymun</a></div>
+				<div class="labels"><a href="">Kamp Bıçağı</a></div>
+				<div class="labels"><a href="">Çadır</a></div>
+				<div class="labels"><a href="">Ateş</a></div>
+				<div class="labels"><a href="">Doğa</a></div>
+				<div class="labels"><a href="">Geyik</a></div>
+				<div class="labels"><a href="">Tavşan</a></div>
+				<div class="labels"><a href="">Orman</a></div>
+				
+				
+			
+			
+			
+		
+			
+			
+			
+			
+		</div>
+		
+		
+	
+		
+		
+		
+		
+		</div>
+	
+	<!-- İçerik Bitiş-->
+	
+	
+	
+
+	<div class="footer">
+		
+		
+		<p style="font-size: 12px;">Copyright © 2019 All rights are reserved.</p>
+		
+		
+		
+		</div>
+	
+</body>
+</html>
