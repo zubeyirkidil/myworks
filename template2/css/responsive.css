@@ -1,0 +1,423 @@
+@media screen and (max-width: 1025px){
+
+
+.logo{
+
+	font-size: 12px;
+}
+
+.menu ul a{
+
+	font-size: 12px;
+}
+
+#slogan{
+
+	top: 150px;
+}
+
+#slogan h1{
+
+	font-size: 52px;
+}
+
+#slogan p{
+
+	font-size: 18px;
+}
+
+#slogan button{
+
+	margin-top: 30px;
+	background-color: #f22;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	padding: 7px 13px 7px 13px;
+	transition: 0.5s;
+}
+
+}
+
+@media screen and (max-width: 800px){
+
+nav{
+
+	
+	height: 60px;
+	padding-left: 0%;
+	padding-right: 0%;
+	width: 100%;
+	z-index: 999;
+}
+
+.logo{
+
+
+	line-height: 60px;
+	padding-top: 10px;
+	font-size: 12px;
+	padding-left: 7%;
+	width: 90%;
+	z-index: 999;
+}
+
+.hamburger-menu{
+
+	visibility: visible;
+	height: 60px;
+	width: 10%;
+	padding-right: 5%;
+	margin-top: 10px;
+	z-index: 999;
+}
+
+.hamburger-menu div{
+
+	transition: 0.5s;
+}
+
+.menu{
+
+	background-color: rgba(0,0,0,0.8);
+	transform: translateY(-65%);
+	transition: 0.5s;
+	width: 100%;
+	z-index: 0;
+	position: absolute;
+}
+
+.menu ul{
+
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0px;
+	z-index: 0;
+}
+
+.menu ul a{
+
+	font-size: 8px;
+	width: auto;
+	padding: 10px;
+	z-index: 0;
+}
+
+.menu ul li{
+
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+	line-height: 15px;
+	width: auto;
+	z-index: 0;
+
+}
+
+#slogan{
+
+	padding-left: 7%;
+	position: absolute;
+	top: 110px;
+	width: 95%;
+}
+
+#slogan h1{
+
+	font-size: 42px;
+}
+
+#slogan p{
+
+	font-size: 16px;
+}
+
+#slogan button{
+
+	margin-top: 30px;
+	background-color: #f22;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	padding: 5px 10px 5px 10px;
+	transition: 0.5s;
+}
+
+.slideBtns{
+
+	font-size: 28px;
+}
+
+#prevBtn{
+
+	left: 10px;
+}
+
+#nextBtn{
+
+	right: 10px;
+}
+
+.small-slider img{
+
+	padding: 10%;
+	transition: 1s;
+}
+
+.section-1 h2{
+
+	font-size: 24px;
+}
+
+.section-1 p{
+
+	font-size: 12px;
+}
+
+.photos h2{
+
+	font-size: 24px;
+}
+
+.photos img{
+
+	width: 100%;
+}
+
+
+.section-2 h2{
+
+	font-size: 24px;
+}
+
+.section-2 p{
+
+	font-size: 12px;
+}
+
+
+.section-3 h2{
+
+	font-size: 24px;
+}
+
+.section-3 p{
+
+	font-size: 12px;
+}
+
+.section-3 button{
+
+	font-size: 14px;
+	margin-top: 15px;
+	padding: 7px 10px 7px 10px;
+}
+
+.communication{
+
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.communication input,textarea{
+
+	font-size: 14px;
+	line-height: 28px;
+	margin-bottom: 5px;
+}
+
+.communication button{
+
+	font-size: 14px;
+	line-height: 28px;
+	margin-bottom: 5px;
+}
+
+.social{
+
+	background-color: #111;
+	font-size: 15px;
+}
+
+}
+
+@media screen and (max-width: 768px){
+
+.logo{
+
+	line-height: 45px;
+	font-size: 12px;
+	padding-left: 7%;
+	width: 85%;
+}
+
+.hamburger-menu{
+
+	width: 15%;
+}
+
+.slideBtnsSmall{
+
+	font-size: 24px;
+}
+
+}
+
+@media screen and (max-width: 625px){
+
+header{
+
+	background-color: #000;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+
+#slogan{
+
+	padding-left: 10%;
+	position: absolute;
+	top: 170px;
+	width: 90%;
+}
+
+#slogan h1{
+
+	font-size: 28px;
+}
+
+#slogan p{
+
+	font-size: 10px;
+}
+
+#slogan button{
+
+	font-size: 10px;
+	margin-top: 0px;
+	padding: 3px 6px 3px 6px;
+}
+
+.slideBtns{
+
+	font-size: 21px;
+}
+
+#prevBtn{
+
+	left: 5px;
+	top: 48%;
+}
+
+#nextBtn{
+
+	right: 5px;
+	top: 48%;
+}
+
+.metrics{
+
+	
+	padding-top: 150px;
+
+}
+
+.metrics h2{
+
+	font-size: 25px;
+}
+
+.section-1{
+
+	padding-right: 7%;
+	padding-left: 7%;
+}
+
+.section-1 h2{
+
+	font-size: 21px;
+}
+
+.section-1 p{
+
+	font-size: 10px;
+}
+
+.section-2{
+
+	padding-right: 7%;
+	padding-left: 7%;
+}
+
+.section-2 h2{
+
+	font-size: 21px;
+}
+
+.section-2 p{
+
+	font-size: 10px;
+}
+
+.section-3{
+
+	padding-right: 7%;
+	padding-left: 7%;
+}
+
+.section-3 h2{
+
+	font-size: 21px;
+}
+
+.section-3 p{
+
+	font-size: 10px;
+}
+
+.section-3 button{
+
+	font-size: 14px;
+	margin-top: 15px;
+	padding: 7px 10px 7px 10px;
+}
+
+.sentence blockquote{
+
+	font-size: 21px;
+}
+
+.sentence p{
+
+	font-size: 14px;
+}
+
+.communication{
+
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.communication input,textarea{
+
+	font-size: 14px;
+	line-height: 28px;
+	margin-bottom: 5px;
+}
+
+.communication button{
+
+	font-size: 14px;
+	line-height: 28px;
+	margin-bottom: 5px;
+}
+
+.social{
+
+	font-size: 11px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+
+}

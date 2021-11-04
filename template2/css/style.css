@@ -1,0 +1,460 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* NAVBAR */
+nav{
+
+	background-color: rgba(0,0,0,0.8);
+	height: 52px;
+	padding-left: 10%;
+	padding-right: 10%;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
+body{
+	background-position: center;
+}
+
+header{
+
+	position: relative;
+}
+.logo{
+
+	color: #aaa;
+	float: left;
+	font-size: 15px;
+	line-height: 52px;
+	width: 10%;
+}
+.logo span{
+
+	color: #a33;
+}
+.hamburger-menu{
+
+	height: 45px;
+	padding-top: 13px;
+	visibility: hidden;
+	position: absolute;
+	right: 0px;
+	width: 10%;
+}
+
+.hamburger-menu div{
+
+	background-color: #efefef;
+	height: 2px;
+	margin-bottom: 7px;
+	width: 100%;
+
+}
+.menu{
+
+	float: right;
+	width: 80%;
+}
+.menu ul{
+
+	float: right;
+	list-style: none;
+}
+.menu ul li{
+
+	float: left;
+	line-height: 52px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.menu ul a{
+
+	display: inline-block;
+	color: #aaa;
+	font-size: 14px;
+	transition: 0.5s;
+}
+.menu ul a:hover{
+
+	background-color: #a00;
+	color: #efefef;
+}
+
+/* BACKGROUND */
+
+.outer-frame{
+
+	overflow: hidden;
+}
+.slider{
+
+	background-color: #000;
+	display: flex;
+	width: 100%;
+}
+
+.slider img{
+
+	width: 100%;
+}
+
+.slideBtns{
+
+	color: #fff;
+	cursor: pointer;
+	opacity: 0.3;
+	font-size: 35px;
+}
+
+.slideBtns:hover{
+
+	opacity: 1;
+}
+
+#slogan{
+
+	padding-left: 10%;
+	position: absolute;
+	top: 220px;
+	width: 90%;
+}
+
+#slogan h1{
+
+	color: #efefef;
+	font-size: 72px;
+}
+
+#slogan h1 span{
+
+	color: #a55;
+	position: relative;
+}
+
+#slogan h1 span:after{
+
+	content: "";
+	position: absolute;
+	width: 1px;
+	height: 90%;
+	border-right: 3px solid #efefef;
+	animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink{
+
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+#slogan p{
+
+	color: #efefef;
+	font-size: 21px;
+}
+
+#slogan button{
+
+	margin-top: 30px;
+	background-color: #f22;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px 20px 10px 20px;
+	transition: 0.5s;
+}
+
+#slogan button:hover{
+
+	background-color: #f11;
+	color: #fff;
+}
+
+#prevBtn{
+
+	left: 15px;
+	top: 50%;
+	position: absolute;
+}
+
+#nextBtn{
+
+	right: 15px;
+	top: 50%;
+	position: absolute;
+}
+
+.sentence{
+
+	background-color: #050505;
+	color: #ccc;
+	
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.sentence blockquote{
+
+	font-size: 28px;
+}
+
+.sentence p{
+
+	font-style: italic;
+}
+
+.metrics{
+
+	background-color: #000;
+	box-shadow: 100px 100px red;
+	color: #ccc;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.metrics i{
+
+	color: #ccc;
+	font-size: 35px;
+	margin-bottom: 15px;
+}
+
+.section-1{
+
+
+	background: url('../img/3.png');
+	background-attachment: fixed;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.stick{
+
+	height: 50px;
+}
+
+.photos{
+
+	background-color: #000;
+	overflow: hidden;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+.photos h2{
+
+	color: #ccc;
+}
+
+.small-slider{
+
+	background-color: #000;
+	display: flex;
+
+}
+
+.small-slider img{
+
+	width: 33.3%;
+	padding: 2%;
+	transition: 0.5s;
+}
+
+.small-slider img:hover{
+
+	padding: 0%;
+}
+
+.slideBtnsSmall{
+
+	color: #fff;
+	cursor: pointer;
+	opacity: 0.3;
+	font-size: 35px;
+}
+
+.slideBtnsSmall:hover{
+
+	opacity: 1;
+}
+
+#prevBtnSmall{
+
+	left: 1px;
+	top: 50%;
+	position: absolute;
+}
+
+#nextBtnSmall{
+
+	right: 1px;
+	top: 50%;
+	position: absolute;
+}
+
+.section-2{
+
+	background: url('../img/2.png');
+	background-attachment: fixed;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.section-3{
+
+	background: url('../img/3.png');
+	background-attachment: fixed;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.section-3 button{
+
+	background-color: #c00;
+	border: none;
+	color: #ccc;
+	margin-top: 15px;
+	padding: 10px 20px 10px 20px;
+	transition: 0.5s;
+}
+
+.section-3 button:hover{
+
+	background-color: #e00;
+	color: #efefef;
+}
+
+.communication{
+
+	background-color: #000;
+	float: left;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	width: 100%;
+}
+
+.communication h2{
+
+	color: #efefef;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+.communication input,textarea{
+
+	background-color: #000;
+	border: none;
+	border-bottom: 2px solid #efefef;
+	color: #fff;
+	font-size: 15px;
+	float: left;
+	line-height: 40px;
+	margin-bottom: 10px;
+	transition: 0.5s;
+}
+
+.communication input:focus,textarea:focus{
+
+	border: none;
+	background-color: #111;
+}
+
+
+.communication #name{
+
+	margin-right: 1%;
+	padding-left: 1.5%;
+	width: 49%;
+}
+
+.communication #surname{
+	
+	margin-left: 1%;
+	padding-left: 1.5%;
+	width: 49%;
+}
+
+.communication #email{
+	padding-left: 1.5%;
+	width: 100%;
+}
+
+.communication #message{
+	
+	height: 150px;
+	padding-left: 1.5%;
+	width: 100%;
+}
+
+.communication button{
+
+	color: #ccc;
+	cursor: pointer;
+	background-color: #d00;
+	border: none;
+	font-size: 15px;
+	float: left;
+	line-height: 40px;
+	margin-bottom: 10px;
+	transition: 0.5s;
+	width: 100%;
+}
+
+.communication button:hover{
+
+	color: #efefef;
+	background-color: #f00;
+}
+
+.social{
+
+	background-color: #111;
+	font-size: 18px;
+}
+
+.social .social-item{
+
+	color: #ccc;
+	cursor: pointer;
+	opacity: 0.5;
+	transition: 1s;
+}
+
+.social .social-item:hover{
+
+	color: #efefef;
+	opacity: 1;
+}
+
+.footer{
+
+	background-color: #000;
+	float: left;
+	bottom: 0px;
+	height: auto;
+	padding-left: 10%;
+	padding-right: 10%;
+	width: 100%;
+}
+
+.footer p{
+
+	background-color: #000;
+	color: #fff;
+	float: left;
+	font-size: 9px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.footer a{
+
+	color: red;
+}
