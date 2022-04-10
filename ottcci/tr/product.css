@@ -1,0 +1,43 @@
+#disclaimer {
+	
+
+	
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 70px;
+	color: #333;
+	height: 100%;
+	font-size: 21px;
+	margin-left: 10%;
+	width: 80%;
+	
+	
+	
+}
+
+.product {
+	
+	margin-left: 30%;
+	margin-right: 30%;
+	
+}
+
+
+.product img {
+	
+	
+	
+	
+}
+
+@media screen and (max-width: 1080px) {
+	
+	
+	.product {
+		
+		margin: 0%;
+		
+	}
+	
+	
+}
