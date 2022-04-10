@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1000px) {
+ 
+	header nav ul{
+		
+		display: none;
+	}
+	
+	
+	#mainContent {
+	
+	height: 100vh;
+	}
+	
+	.mainArea {
+	
+	padding-top: 130px;
+}
+	
+	.mainContentFirst {
+		
+		font-size: 24px;
+	}
+	
+	.mainContentSecond {
+		
+		font-size: 28px;
+	}
+	
+	.mainContentThird {
+		
+		font-size: 20px;
+	}
+	
+	.mainContentFourth {
+		
+		font-size: 13px;
+	}
+	
+	.mainContentFifth {
+		
+		font-size: 24px;
+	}
+	
+	.fa-bars {
+		
+	display: block;
+	}
+	
+	.servicesContent p {
+		
+		margin-top: 30px;
+		font-size: 18px;
+	}
+	
+	.designs {
+		
+		margin-left: 2%;
+		width: 96%;
+	}
+	
+	#landingPageVideo {
+	
+	width: 95%;
+	height: 300px;
+}
+	
+	#counter img {
+	
+	width: 90%;
+	padding-right: 10px;
+}
+
+	
+}
+
+@media only screen and (min-width: 1000px) {
+ 
+	#hamburger-menu {
+		
+		display: none!important
+	}
+	
+}
